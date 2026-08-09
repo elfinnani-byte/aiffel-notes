@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: 모두의연구소 AI 에이전트 1기
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  analytics: null
+  locale: ko-KR
+  baseUrl: elfinnani-byte.github.io/aiffel-notes
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - .claude
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -21,24 +21,24 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#ffffff"
+        lightgray: "#e0e0e0"
+        gray: "#5c5c5c"
+        darkgray: "#222222"
+        dark: "#222222"
+        secondary: "#9873f7"
+        tertiary: "#8a5cf5"
+        highlight: rgba(138, 92, 245, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#1e1e1e"
+        lightgray: "#363636"
+        gray: "#b3b3b3"
+        darkgray: "#dadada"
+        dark: "#dadada"
+        secondary: "#a68af9"
+        tertiary: "#8a5cf5"
+        highlight: rgba(138, 92, 245, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -100,6 +100,11 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: local
+      body: 'Pretendard, Inter, "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif'
+      header: 'Pretendard, Inter, "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif'
+      code: 'ui-monospace, SFMono-Regular, "Cascadia Mono", "Roboto Mono", "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, Consolas, "Source Code Pro", monospace'
   - source: "@quartz-themes/core"
     enabled: false
     options:
@@ -132,6 +137,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      folderClickBehavior: collapse
+      folderDefaultState: open
     layout:
       position: left
       priority: 50
