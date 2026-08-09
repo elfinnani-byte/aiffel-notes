@@ -263,9 +263,12 @@ article {
   }
 }
 
-// Panel titles renamed to match reference wording
+// Panel titles renamed to match reference wording. Backlinks needs this
+// too now that locale: ko-KR translates Quartz's built-in "Backlinks"
+// string to "백링크" — force it back to the English label.
 .graph > h3,
-.toc-header > h3 {
+.toc-header > h3,
+.backlinks > h3 {
   font-size: 0;
 
   &::before {
@@ -281,6 +284,9 @@ article {
 }
 .toc-header > h3::before {
   content: "On This Page";
+}
+.backlinks > h3::before {
+  content: "Backlinks";
 }
 
 // Table of contents + backlinks lists — same 14px sidebar text size as the
@@ -319,6 +325,17 @@ article {
   font-size: 14px;
   font-weight: 400;
   color: var(--gray);
+}
+
+// Hide the backlinks list's scrollbar (both axes) without disabling scroll
+.backlinks .overflow {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 // Reference scales its sidebar widths with the viewport (measured ~26-30%
