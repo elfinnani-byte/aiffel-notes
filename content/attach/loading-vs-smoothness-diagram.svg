@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="1" y="1" width="698" height="378" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="30" y="38" fill="#0f172a" font-size="20" font-weight="700">느리다고 할 때 어디를 손대야 하는가</text>
+  <text x="30" y="60" fill="#475569" font-size="13">같은 장면을 두 형식으로 적어 둔 것입니다. 형식은 알갱이를 덜어 내지 않습니다.</text>
+
+  <!-- axes -->
+  <line x1="120" y1="320" x2="620" y2="320" stroke="#334155" stroke-width="2"/>
+  <line x1="120" y1="320" x2="120" y2="90" stroke="#334155" stroke-width="2"/>
+
+  <text x="370" y="352" text-anchor="middle" fill="#334155" font-size="13.5" font-weight="700">파일 크기 (오른쪽으로 갈수록 오래 기다립니다)</text>
+  <text x="95" y="205" text-anchor="middle" fill="#334155" font-size="13.5" font-weight="700" transform="rotate(-90 95 205)">알갱이 수</text>
+
+  <!-- two points same row (same 알갱이 count, different file size) -->
+  <circle cx="220" cy="210" r="10" fill="#0891b2"/>
+  <text x="220" y="188" text-anchor="middle" fill="#0e7490" font-size="13" font-weight="700">.sog 15.3MB</text>
+
+  <circle cx="540" cy="210" r="10" fill="#0891b2"/>
+  <text x="540" y="188" text-anchor="middle" fill="#0e7490" font-size="13" font-weight="700">.ply 217.5MB</text>
+
+  <line x1="230" y1="210" x2="530" y2="210" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr5a)"/>
+  <text x="380" y="235" text-anchor="middle" fill="#dc2626" font-size="12.5">가로로 움직이면 기다리는 시간만 바뀝니다</text>
+
+  <text x="120" y="205" text-anchor="end" fill="#475569" font-size="12">둘 다 알갱이 3,197,944개</text>
+  <text x="120" y="220" text-anchor="end" fill="#475569" font-size="12">크기만 열네 배 다릅니다</text>
+
+  <!-- vertical arrow showing smoothness axis -->
+  <line x1="120" y1="300" x2="120" y2="110" stroke="#0f766e" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#arr5b)"/>
+  <text x="70" y="150" fill="#0f766e" font-size="12" font-weight="700" transform="rotate(-90 70 150)">세로로 내려가야 부드러움이 바뀝니다</text>
+  <text x="70" y="300" fill="#0f766e" font-size="12" font-weight="700" transform="rotate(-90 70 300)">(알갱이를 실제로 덜어 내야 합니다)</text>
+
+  <defs>
+    <marker id="arr5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr5b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+
+  <text x="370" y="368" text-anchor="middle" fill="#0f172a" font-size="13.5" font-weight="700">오래 기다린다 → 형식을 바꿉니다.  뚝뚝 끊긴다 → 알갱이 수를 줄입니다.</text>
+</svg>

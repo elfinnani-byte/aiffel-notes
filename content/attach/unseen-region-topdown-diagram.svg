@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="1" y="1" width="798" height="338" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="30" y="36" fill="#0f172a" font-size="19" font-weight="700">위에서 내려다본 그림입니다</text>
+  <text x="30" y="58" fill="#475569" font-size="13">스물네 장을 찍어도 렌즈가 지나가지 않은 쪽은 정보가 부족한 것이 아니라 아예 비어 있습니다.</text>
+
+  <!-- object -->
+  <ellipse cx="400" cy="190" rx="70" ry="45" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+
+  <!-- covered surface (front, arc facing walked path) -->
+  <path d="M 340 165 A 70 45 0 0 1 460 165" fill="none" stroke="#0891b2" stroke-width="6"/>
+  <text x="400" y="145" text-anchor="middle" fill="#0e7490" font-size="12.5" font-weight="700">알갱이가 놓인 면</text>
+
+  <!-- uncovered surface (back) -->
+  <path d="M 340 215 A 70 45 0 0 0 460 215" fill="none" stroke="#0f172a" stroke-width="6" stroke-dasharray="2 4"/>
+  <text x="400" y="255" text-anchor="middle" fill="#0f172a" font-size="12.5" font-weight="700">아무 값도 없는 곳</text>
+
+  <!-- walked camera path (arc in front) -->
+  <path d="M 250 90 Q 400 40 550 90" fill="none" stroke="#15803d" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="250" y="80" fill="#15803d" font-size="18">📷</text>
+  <text x="530" y="80" fill="#15803d" font-size="18">📷</text>
+  <text x="400" y="55" text-anchor="middle" fill="#15803d" font-size="12" font-weight="700">걸어간 카메라</text>
+
+  <!-- rotating viewer camera behind, looking at unseen face -->
+  <text x="390" y="305" fill="#b91c1c" font-size="18">📷</text>
+  <text x="400" y="325" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="700">돌려서 보는 카메라</text>
+  <line x1="405" y1="300" x2="405" y2="230" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <text x="620" y="200" fill="#0f172a" font-size="12" font-weight="700">이쪽에서 보면</text>
+  <text x="620" y="216" fill="#0f172a" font-size="12" font-weight="700">검은 얼룩이 보입니다</text>
+  <line x1="610" y1="205" x2="470" y2="205" stroke="#334155" stroke-width="1.5" marker-end="url(#arru)"/>
+  <defs>
+    <marker id="arru" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="300" text-anchor="middle" fill="#475569" font-size="12.5" font-style="italic" opacity="0"> </text>
+  <text x="400" y="332" text-anchor="middle" fill="#0f172a" font-size="12.5" font-weight="700" opacity="0"> </text>
+</svg>

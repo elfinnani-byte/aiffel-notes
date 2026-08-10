@@ -1,0 +1,39 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="1" y="1" width="898" height="338" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="30" y="40" fill="#0f172a" font-size="23" font-weight="700">걸어가며 찍으면 가까운 것이 더 많이 밀립니다</text>
+  <text x="30" y="64" fill="#475569" font-size="14">같은 방을 두 곳에서 찍은 장입니다. 점선은 첫 장에서 그 물건이 있던 자리입니다.</text>
+
+  <!-- Left panel: first shot -->
+  <rect x="60" y="100" width="380" height="180" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="250" y="92" text-anchor="middle" fill="#334155" font-size="13.5" font-weight="700">첫 자리에서 찍은 장</text>
+  <circle cx="180" cy="140" r="14" fill="#94a3b8"/>
+  <text x="180" y="120" text-anchor="middle" fill="#475569" font-size="12.5" font-weight="700">먼 물건</text>
+  <circle cx="150" cy="224" r="22" fill="#0891b2"/>
+  <text x="150" y="266" text-anchor="middle" fill="#0e7490" font-size="12.5" font-weight="700">가까운 물건</text>
+
+  <!-- Right panel: shifted shot -->
+  <rect x="460" y="100" width="380" height="180" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="650" y="92" text-anchor="middle" fill="#334155" font-size="13.5" font-weight="700">몇 걸음 옮겨 찍은 장</text>
+
+  <!-- far object: small shift -->
+  <line x1="610" y1="128" x2="610" y2="188" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="590" cy="158" r="14" fill="#94a3b8" opacity="0.4" stroke="#94a3b8" stroke-dasharray="3 3"/>
+  <circle cx="610" cy="158" r="14" fill="#94a3b8"/>
+  <text x="600" y="188" text-anchor="middle" fill="#475569" font-size="12">조금 밀렸습니다</text>
+
+  <!-- near object: large shift -->
+  <line x1="730" y1="192" x2="730" y2="256" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="600" cy="224" r="22" fill="#0891b2" opacity="0.35" stroke="#0891b2" stroke-dasharray="3 3"/>
+  <circle cx="730" cy="224" r="22" fill="#0891b2"/>
+  <text x="700" y="266" text-anchor="middle" fill="#0e7490" font-size="12">많이 밀렸습니다</text>
+
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <line x1="614" y1="158" x2="605" y2="158" stroke="#dc2626" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="726" y1="224" x2="605" y2="224" stroke="#dc2626" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <text x="450" y="315" text-anchor="middle" fill="#0f172a" font-size="14.5" font-weight="700">밀린 양의 차이가 곧 거리입니다. 이 어긋남을 시차라고 합니다.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="1" y="1" width="898" height="378" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="30" y="36" fill="#0f172a" font-size="19" font-weight="700">걸음이 줄어든 것이지 계산이 없어진 것이 아닙니다</text>
+  <text x="30" y="58" fill="#475569" font-size="13">위쪽 걸음들이 아래쪽 상자 하나 안으로 접혀 들어갔습니다.</text>
+
+  <!-- Old path -->
+  <text x="30" y="92" fill="#334155" font-size="14" font-weight="700">오래 쓰인 길</text>
+  <g font-size="12.5">
+    <rect x="30" y="102" width="90" height="46" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="75" y="129" text-anchor="middle">사진</text>
+
+    <rect x="140" y="102" width="110" height="46" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="195" y="122" text-anchor="middle">특징점</text>
+    <text x="195" y="138" text-anchor="middle">뽑기</text>
+
+    <rect x="270" y="102" width="110" height="46" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="325" y="122" text-anchor="middle">짝</text>
+    <text x="325" y="138" text-anchor="middle">맞추기</text>
+
+    <rect x="400" y="102" width="110" height="46" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="455" y="122" text-anchor="middle">자리</text>
+    <text x="455" y="138" text-anchor="middle">풀기</text>
+
+    <rect x="530" y="102" width="110" height="46" rx="8" fill="#fde68a" stroke="#b45309"/>
+    <text x="585" y="122" text-anchor="middle">성긴 점</text>
+    <text x="585" y="138" text-anchor="middle">8천 개</text>
+
+    <rect x="660" y="102" width="130" height="46" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="725" y="122" text-anchor="middle">조밀하게</text>
+    <text x="725" y="138" text-anchor="middle">만들기 (MVS)</text>
+
+    <rect x="810" y="102" width="70" height="46" rx="8" fill="#fecaca" stroke="#b91c1c"/>
+    <text x="845" y="122" text-anchor="middle" font-size="10.5">장면마다</text>
+    <text x="845" y="136" text-anchor="middle" font-size="10.5">학습</text>
+  </g>
+  <text x="440" y="180" text-anchor="middle" fill="#b91c1c" font-size="13" font-weight="700">사진 200장에 12분</text>
+
+  <!-- arrow down -->
+  <line x1="440" y1="192" x2="440" y2="215" stroke="#334155" stroke-width="2" marker-end="url(#arr6)"/>
+  <defs>
+    <marker id="arr6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <!-- New path -->
+  <text x="30" y="248" fill="#334155" font-size="14" font-weight="700">오늘 걸은 길</text>
+  <g font-size="12.5">
+    <rect x="30" y="258" width="90" height="46" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="75" y="285" text-anchor="middle">사진</text>
+
+    <rect x="140" y="258" width="300" height="46" rx="8" fill="#bfdbfe" stroke="#1d4ed8"/>
+    <text x="290" y="278" text-anchor="middle" font-weight="700">미리 학습해 둔 모델을</text>
+    <text x="290" y="294" text-anchor="middle" font-weight="700">한 번 통과</text>
+
+    <rect x="460" y="258" width="150" height="46" rx="8" fill="#bbf7d0" stroke="#15803d"/>
+    <text x="535" y="278" text-anchor="middle" font-weight="700">조밀한 점</text>
+    <text x="535" y="294" text-anchor="middle" font-weight="700">삼백이십만 개</text>
+  </g>
+  <text x="440" y="340" text-anchor="middle" fill="#15803d" font-size="13" font-weight="700">스물네 장에 10.6초 · 최대 그래픽 메모리 6.74GB</text>
+
+  <text x="450" y="365" text-anchor="middle" fill="#0f172a" font-size="12.5">볼 것은 배수가 아니라 상자의 개수입니다. 상자가 줄면 막힐 곳도 함께 줄어듭니다.</text>
+</svg>
