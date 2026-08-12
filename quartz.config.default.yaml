@@ -12,6 +12,7 @@ configuration:
     - templates
     - .obsidian
     - .claude
+    - daily
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
