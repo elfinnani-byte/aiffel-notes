@@ -1,0 +1,29 @@
+<svg viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg" style="max-width: 900px; width: 100%; height: auto;">
+<text x="450" y="32" text-anchor="middle" font-size="24">경험을 스킬로 바꾼 조건의 상대 경향</text>
+<text x="34" y="190" text-anchor="middle" font-size="16" transform="rotate(-90 34 190)">평균 정확도</text>
+<line x1="100" y1="300" x2="830" y2="300" stroke="#374151" stroke-width="2"></line>
+<line x1="100" y1="70" x2="100" y2="300" stroke="#374151" stroke-width="2"></line>
+<text x="215" y="330" text-anchor="middle" font-size="16">작음</text>
+<text x="455" y="330" text-anchor="middle" font-size="16">중간</text>
+<text x="695" y="330" text-anchor="middle" font-size="16">큼</text>
+<rect x="135" y="220" width="28" height="80" fill="#cbd5e1"></rect>
+<rect x="170" y="205" width="28" height="95" fill="#94a3b8"></rect>
+<rect x="205" y="190" width="28" height="110" fill="#64748b"></rect>
+<rect x="240" y="165" width="28" height="135" fill="#2563eb"></rect>
+<rect x="375" y="205" width="28" height="95" fill="#cbd5e1"></rect>
+<rect x="410" y="180" width="28" height="120" fill="#94a3b8"></rect>
+<rect x="445" y="165" width="28" height="135" fill="#64748b"></rect>
+<rect x="480" y="125" width="28" height="175" fill="#2563eb"></rect>
+<rect x="615" y="185" width="28" height="115" fill="#cbd5e1"></rect>
+<rect x="650" y="150" width="28" height="150" fill="#94a3b8"></rect>
+<rect x="685" y="130" width="28" height="170" fill="#64748b"></rect>
+<rect x="720" y="75" width="28" height="225" fill="#2563eb"></rect>
+<rect x="135" y="355" width="16" height="16" fill="#cbd5e1"></rect>
+<rect x="280" y="355" width="16" height="16" fill="#94a3b8"></rect>
+<rect x="435" y="355" width="16" height="16" fill="#64748b"></rect>
+<rect x="590" y="355" width="16" height="16" fill="#2563eb"></rect>
+<text x="158" y="368" font-size="15">무스킬</text>
+<text x="303" y="368" font-size="15">EvoSkill</text>
+<text x="458" y="368" font-size="15">SkillOpt</text>
+<text x="613" y="368" font-size="15">WikiSkill</text>
+</svg>
