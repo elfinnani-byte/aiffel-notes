@@ -1,0 +1,66 @@
+<svg role="img" aria-label="말한 것과 실행 기록이 세션 한 줄에서 갈리는 구조: assistant의 text와 toolCall, 그리고 toolCallId로 짝지어지는 toolResult" viewBox="0.00 0.00 618.00 129.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="max-width: 100%; height: auto;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 124.71)">
+
+<g id="node1" class="node">
+<path fill="#e8eef7" stroke="#4a6fa5" d="M85.41,-52.71C85.41,-52.71 12,-52.71 12,-52.71 6,-52.71 0,-46.71 0,-40.71 0,-40.71 0,-24 0,-24 0,-18 6,-12 12,-12 12,-12 85.41,-12 85.41,-12 91.41,-12 97.41,-18 97.41,-24 97.41,-24 97.41,-40.71 97.41,-40.71 97.41,-46.71 91.41,-52.71 85.41,-52.71"></path>
+<text xml:space="preserve" text-anchor="middle" x="48.71" y="-35.78" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">세션 기록의 한 줄</text>
+<text xml:space="preserve" text-anchor="middle" x="48.71" y="-21.53" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">message</text>
+</g>
+
+<g id="node2" class="node">
+<path fill="#f5f5f7" stroke="#8e8e93" d="M221.69,-99.71C221.69,-99.71 170.79,-99.71 170.79,-99.71 164.79,-99.71 158.79,-93.71 158.79,-87.71 158.79,-87.71 158.79,-71 158.79,-71 158.79,-65 164.79,-59 170.79,-59 170.79,-59 221.69,-59 221.69,-59 227.69,-59 233.69,-65 233.69,-71 233.69,-71 233.69,-87.71 233.69,-87.71 233.69,-93.71 227.69,-99.71 221.69,-99.71"></path>
+<text xml:space="preserve" text-anchor="middle" x="196.24" y="-82.78" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">assistant</text>
+<text xml:space="preserve" text-anchor="middle" x="196.24" y="-69.28" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">모델이 낸 줄</text>
+</g>
+
+<g id="edge1" class="edge">
+<path fill="none" stroke="#6e6e73" d="M97.76,-47.87C114.7,-53.34 133.66,-59.47 150.32,-64.85"></path>
+<polygon fill="#6e6e73" stroke="#6e6e73" points="149.44,-67.14 156.86,-66.96 150.95,-62.48 149.44,-67.14"></polygon>
+</g>
+
+<g id="node3" class="node">
+<path fill="#f5f5f7" stroke="#8e8e93" d="M246.07,-40.71C246.07,-40.71 146.41,-40.71 146.41,-40.71 140.41,-40.71 134.41,-34.71 134.41,-28.71 134.41,-28.71 134.41,-12 134.41,-12 134.41,-6 140.41,0 146.41,0 146.41,0 246.07,0 246.07,0 252.07,0 258.07,-6 258.07,-12 258.07,-12 258.07,-28.71 258.07,-28.71 258.07,-34.71 252.07,-40.71 246.07,-40.71"></path>
+<text xml:space="preserve" text-anchor="middle" x="196.24" y="-23.78" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">toolResult</text>
+<text xml:space="preserve" text-anchor="middle" x="196.24" y="-10.28" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">에이전트가 실행한 결과</text>
+</g>
+
+<g id="edge2" class="edge">
+<path fill="none" stroke="#6e6e73" d="M97.76,-28.39C106.73,-27.65 116.26,-26.87 125.72,-26.09"></path>
+<polygon fill="#6e6e73" stroke="#6e6e73" points="125.71,-28.55 132.49,-25.53 125.31,-23.66 125.71,-28.55"></polygon>
+</g>
+
+<g id="node4" class="node">
+<path fill="#f5f5f7" stroke="#8e8e93" d="M362.15,-120.71C362.15,-120.71 332.15,-120.71 332.15,-120.71 326.15,-120.71 320.15,-114.71 320.15,-108.71 320.15,-108.71 320.15,-92 320.15,-92 320.15,-86 326.15,-80 332.15,-80 332.15,-80 362.15,-80 362.15,-80 368.15,-80 374.15,-86 374.15,-92 374.15,-108.71 374.15,-108.71 374.15,-114.71 368.15,-120.71 362.15,-120.71"></path>
+<text xml:space="preserve" text-anchor="middle" x="347.15" y="-103.78" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">text</text>
+<text xml:space="preserve" text-anchor="middle" x="347.15" y="-90.28" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">말한 것</text>
+</g>
+
+<g id="edge3" class="edge">
+<path fill="none" stroke="#6e6e73" d="M234.05,-84.55C257.83,-87.9 288.56,-92.23 311.83,-95.51"></path>
+<polygon fill="#6e6e73" stroke="#6e6e73" points="311.27,-97.91 318.54,-96.46 311.95,-93.06 311.27,-97.91"></polygon>
+</g>
+
+<g id="node5" class="node">
+<path fill="#f5f5f7" stroke="#8e8e93" d="M387.23,-61.71C387.23,-61.71 307.07,-61.71 307.07,-61.71 301.07,-61.71 295.07,-55.71 295.07,-49.71 295.07,-49.71 295.07,-33 295.07,-33 295.07,-27 301.07,-21 307.07,-21 307.07,-21 387.23,-21 387.23,-21 393.23,-21 399.23,-27 399.23,-33 399.23,-33 399.23,-49.71 399.23,-49.71 399.23,-55.71 393.23,-61.71 387.23,-61.71"></path>
+<text xml:space="preserve" text-anchor="middle" x="347.15" y="-44.78" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">toolCall</text>
+<text xml:space="preserve" text-anchor="middle" x="347.15" y="-31.28" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">하겠다고 요청한 것</text>
+</g>
+
+<g id="edge4" class="edge">
+<path fill="none" stroke="#6e6e73" d="M234.05,-69.96C249.88,-65.92 268.8,-61.09 286.54,-56.57"></path>
+<polygon fill="#6e6e73" stroke="#6e6e73" points="286.95,-58.99 293.13,-54.88 285.74,-54.24 286.95,-58.99"></polygon>
+</g>
+
+<g id="node6" class="node">
+<path fill="#e9f5e9" stroke="#5a8a5a" d="M597.89,-61.71C597.89,-61.71 522.98,-61.71 522.98,-61.71 516.98,-61.71 510.98,-55.71 510.98,-49.71 510.98,-49.71 510.98,-33 510.98,-33 510.98,-27 516.98,-21 522.98,-21 522.98,-21 597.89,-21 597.89,-21 603.89,-21 609.89,-27 609.89,-33 609.89,-33 609.89,-49.71 609.89,-49.71 609.89,-55.71 603.89,-61.71 597.89,-61.71"></path>
+<text xml:space="preserve" text-anchor="middle" x="560.43" y="-44.78" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">content · details</text>
+<text xml:space="preserve" text-anchor="middle" x="560.43" y="-31.28" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="11.00">실제로 일어난 것</text>
+</g>
+
+<g id="edge5" class="edge">
+<path fill="none" stroke="#6e6e73" stroke-dasharray="5 2" d="M399.57,-41.36C430.63,-41.36 470.27,-41.36 502.3,-41.36"></path>
+<polygon fill="#6e6e73" stroke="#6e6e73" points="502.18,-43.81 509.18,-41.36 502.18,-38.91 502.18,-43.81"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="455.11" y="-44.81" font-family="Helvetica Neue, Apple SD Gothic Neo, sans-serif" font-size="9.00"> &#160;toolCallId로 짝지음</text>
+</g>
+</g>
+</svg>
