@@ -1,0 +1,47 @@
+<svg viewBox="0 0 960 510" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif;">
+<rect width="960" height="510" rx="22" fill="#f8fafc"></rect>
+<text x="480" y="38" text-anchor="middle" font-size="21" font-weight="700" fill="#1e293b">세 실행: 다음 행동을 정하는 주체</text>
+<rect x="30" y="62" width="900" height="126" rx="16" fill="#eff6ff" stroke="#0284c7" stroke-width="2"></rect>
+<rect x="48" y="83" width="165" height="35" rx="12" fill="#dbeafe"></rect>
+<text x="130" y="107" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ed8">기준선 실행(A)</text>
+<text x="130" y="150" text-anchor="middle" font-size="15" fill="#334155">다음 행동: 한 에이전트</text>
+<rect x="260" y="103" width="130" height="48" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="2"></rect>
+<text x="325" y="133" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">질문</text>
+<path d="M390 127H454" fill="none" stroke="#334155" stroke-width="2.5"></path>
+<polygon points="454,121 466,127 454,133" fill="#334155"></polygon>
+<rect x="466" y="103" width="160" height="48" rx="12" fill="#dbeafe" stroke="#0284c7" stroke-width="2"></rect>
+<text x="546" y="133" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">에이전트 1회</text>
+<path d="M626 127H690" fill="none" stroke="#334155" stroke-width="2.5"></path>
+<polygon points="690,121 702,127 690,133" fill="#334155"></polygon>
+<rect x="702" y="103" width="150" height="48" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="2"></rect>
+<text x="777" y="133" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">결과</text>
+<rect x="30" y="203" width="900" height="126" rx="16" fill="#fff7ed" stroke="#ea580c" stroke-width="2"></rect>
+<rect x="48" y="224" width="165" height="35" rx="12" fill="#ffedd5"></rect>
+<text x="130" y="248" text-anchor="middle" font-size="17" font-weight="700" fill="#c2410c">워크플로 실행(B)</text>
+<text x="130" y="291" text-anchor="middle" font-size="15" fill="#334155">다음 행동: 파이썬 코드</text>
+<rect x="260" y="244" width="150" height="48" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"></rect>
+<text x="335" y="274" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">locator</text>
+<path d="M410 268H464" fill="none" stroke="#334155" stroke-width="2.5"></path>
+<polygon points="464,262 476,268 464,274" fill="#334155"></polygon>
+<text x="443" y="251" text-anchor="middle" font-size="14" fill="#9a3412">보고서</text>
+<rect x="476" y="244" width="150" height="48" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"></rect>
+<text x="551" y="274" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">fixer</text>
+<path d="M626 268H690" fill="none" stroke="#334155" stroke-width="2.5"></path>
+<polygon points="690,262 702,268 690,274" fill="#334155"></polygon>
+<rect x="702" y="244" width="150" height="48" rx="12" fill="#ffffff" stroke="#ea580c" stroke-width="2"></rect>
+<text x="777" y="274" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">결과</text>
+<rect x="30" y="344" width="900" height="136" rx="16" fill="#ecfdf5" stroke="#059669" stroke-width="2"></rect>
+<rect x="48" y="365" width="185" height="35" rx="12" fill="#d1fae5"></rect>
+<text x="140" y="389" text-anchor="middle" font-size="17" font-weight="700" fill="#047857">오케스트레이션 실행(C)</text>
+<text x="140" y="438" text-anchor="middle" font-size="15" fill="#334155">다음 행동: 리드 모델</text>
+<rect x="316" y="370" width="330" height="80" rx="14" fill="#d1fae5" stroke="#059669" stroke-width="2"></rect>
+<text x="481" y="402" text-anchor="middle" font-size="18" font-weight="700" fill="#065f46">리드 모델: 판단</text>
+<text x="481" y="428" text-anchor="middle" font-size="15" fill="#334155">직접 수정</text>
+<rect x="710" y="370" width="145" height="80" rx="14" fill="#ffffff" stroke="#059669" stroke-width="2" stroke-dasharray="7 5"></rect>
+<text x="782" y="402" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">locator</text>
+<text x="782" y="428" text-anchor="middle" font-size="14" fill="#334155">선택 호출</text>
+<path d="M646 410H698" fill="none" stroke="#059669" stroke-width="2.5" stroke-dasharray="7 5"></path>
+<polygon points="698,404 710,410 698,416" fill="#059669"></polygon>
+<path d="M710 428H658" fill="none" stroke="#059669" stroke-width="2.5" stroke-dasharray="7 5"></path>
+<polygon points="658,422 646,428 658,434" fill="#059669"></polygon>
+</svg>

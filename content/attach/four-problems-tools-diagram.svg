@@ -1,0 +1,18 @@
+<svg viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<defs><marker id="eco-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1a56db"></path></marker></defs>
+<rect x="0" y="0" width="900" height="360" fill="#f8fafc"></rect>
+<text x="450" y="34" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">오늘 실험이 남긴 네 문제와 그 문제를 겨냥한 도구</text>
+<text x="20" y="72" font-size="12" fill="#64748b">문제</text>
+<g fill="#ffffff" stroke="#64748b" stroke-width="1.5"><rect x="30" y="80" width="200" height="64" rx="8"></rect><rect x="243" y="80" width="200" height="64" rx="8"></rect><rect x="456" y="80" width="200" height="64" rx="8"></rect><rect x="669" y="80" width="200" height="64" rx="8"></rect></g>
+<g font-size="14" font-weight="600" fill="#334155" text-anchor="middle"><text x="130" y="106">컨텍스트가 끊긴다</text><text x="343" y="106">재현이 안 된다</text><text x="556" y="106">모델을 나눌 수 없다</text><text x="769" y="106">상태가 안 보인다</text></g>
+<g font-size="12" fill="#64748b" text-anchor="middle"><text x="130" y="128">워커 결과가 리드에게만 돌아옴</text><text x="343" y="128">리드가 매 턴 다음 행동을 정함</text><text x="556" y="128">세 실행 모두 haiku로 고정</text><text x="769" y="128">터미널을 닫으면 작업이 사라짐</text></g>
+<g stroke="#1a56db" stroke-width="2" fill="none"><path d="M130 144 V184" marker-end="url(#eco-arrow)"></path><path d="M343 144 V184" marker-end="url(#eco-arrow)"></path><path d="M556 144 V184" marker-end="url(#eco-arrow)"></path><path d="M769 144 V184" marker-end="url(#eco-arrow)"></path></g>
+<text x="20" y="182" font-size="12" fill="#64748b">도구</text>
+<g fill="#eff6ff" stroke="#1a56db" stroke-width="1.5"><rect x="30" y="192" width="200" height="64" rx="8"></rect><rect x="243" y="192" width="200" height="64" rx="8"></rect><rect x="456" y="192" width="200" height="64" rx="8"></rect><rect x="669" y="192" width="200" height="64" rx="8"></rect></g>
+<g font-size="14" font-weight="600" fill="#1e3a8a" text-anchor="middle"><text x="130" y="218">Agent Teams</text><text x="343" y="218">Workflows</text><text x="556" y="218">oh-my-claudecode</text><text x="769" y="218">herdr</text></g>
+<g font-size="12" fill="#334155" text-anchor="middle"><text x="130" y="240">팀원끼리 직접 메시지</text><text x="343" y="240">계획을 스크립트로 옮김</text><text x="556" y="240">역할별 모델 배분</text><text x="769" y="240">상태 표시와 백그라운드 보존</text></g>
+<g stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 4"><path d="M30 278 H869"></path></g>
+<text x="20" y="296" font-size="12" fill="#64748b">바꾸는 층</text>
+<g font-size="13" fill="#334155" text-anchor="middle"><text x="130" y="318">다음 행동을 팀원들이 정함</text><text x="343" y="318">다음 행동을 스크립트가 정함</text><text x="556" y="318">어느 모델이 그 행동을 하는가</text><text x="769" y="318">그 행동을 어디서 지켜보는가</text></g>
+<text x="450" y="346" text-anchor="middle" font-size="12" fill="#64748b">조율이나 모델 층이 바뀌면 기준선을 다시 세우고, 관측 층은 오늘 실험 위에 그대로 얹습니다</text>
+</svg>

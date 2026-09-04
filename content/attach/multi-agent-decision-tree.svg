@@ -1,0 +1,89 @@
+<svg width="576pt" height="504pt" viewBox="0.00 0.00 576.00 504.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.743363 0.743363) rotate(0) translate(25.2 652.8)">
+<title>cases</title>
+<polygon fill="#f8fafc" stroke="none" points="-25.2,25.2 -25.2,-652.8 749.62,-652.8 749.62,25.2 -25.2,25.2"></polygon>
+<g id="node1" class="node">
+<title>title</title>
+<path fill="lightgrey" stroke="none" stroke-width="1.8" d="M666.02,-627.6C666.02,-627.6 261.02,-627.6 261.02,-627.6 256.15,-627.6 251.27,-622.73 251.27,-617.85 251.27,-617.85 251.27,-608.1 251.27,-608.1 251.27,-603.23 256.15,-598.35 261.02,-598.35 261.02,-598.35 666.02,-598.35 666.02,-598.35 670.9,-598.35 675.77,-603.23 675.77,-608.1 675.77,-608.1 675.77,-617.85 675.77,-617.85 675.77,-622.73 670.9,-627.6 666.02,-627.6"></path>
+<text xml:space="preserve" text-anchor="start" x="251.27" y="-605.8" font-family="Arial" font-size="20.00" fill="#0f172a"> </text>
+<text xml:space="preserve" text-anchor="start" x="256.52" y="-605.8" font-family="Arial" font-size="24.00" fill="#0f172a">판정 기준은 구조 이름이 아니라 과업의 조건</text>
+<text xml:space="preserve" text-anchor="start" x="670.52" y="-605.8" font-family="Arial" font-size="20.00" fill="#0f172a"> </text>
+</g>
+<g id="node2" class="node">
+<title>root</title>
+<path fill="#dbeafe" stroke="#2563eb" stroke-width="1.8" d="M568.67,-551.35C568.67,-551.35 358.38,-551.35 358.38,-551.35 352.38,-551.35 346.38,-545.35 346.38,-539.35 346.38,-539.35 346.38,-520.63 346.38,-520.63 346.38,-514.63 352.38,-508.63 358.38,-508.63 358.38,-508.63 568.67,-508.63 568.67,-508.63 574.67,-508.63 580.67,-514.63 580.67,-520.63 580.67,-520.63 580.67,-539.35 580.67,-539.35 580.67,-545.35 574.67,-551.35 568.67,-551.35"></path>
+<text xml:space="preserve" text-anchor="middle" x="463.52" y="-522.99" font-family="Arial" font-size="20.00" fill="#0f172a">과업을 나누기 전에 묻는다</text>
+</g>
+<g id="node3" class="node">
+<title>q1</title>
+<path fill="#e0f2fe" stroke="#0284c7" stroke-width="1.8" d="M577.3,-442.38C577.3,-442.38 349.75,-442.38 349.75,-442.38 343.75,-442.38 337.75,-436.38 337.75,-430.38 337.75,-430.38 337.75,-411.66 337.75,-411.66 337.75,-405.66 343.75,-399.66 349.75,-399.66 349.75,-399.66 577.3,-399.66 577.3,-399.66 583.3,-399.66 589.3,-405.66 589.3,-411.66 589.3,-411.66 589.3,-430.38 589.3,-430.38 589.3,-436.38 583.3,-442.38 577.3,-442.38"></path>
+<text xml:space="preserve" text-anchor="middle" x="463.52" y="-414.02" font-family="Arial" font-size="20.00" fill="#0f172a">독립적으로 탐색할 수 있는가</text>
+</g>
+<g id="edge2" class="edge">
+<title>root-&gt;q1</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M463.52,-507.86C463.52,-493.79 463.52,-474.95 463.52,-458.5"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="467.38,-458.65 463.53,-447.65 459.68,-458.65 467.38,-458.65"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="477.02" y="-470.43" font-family="Arial" font-size="16.00" fill="#334155">먼저</text>
+</g>
+<g id="node4" class="node">
+<title>q2</title>
+<path fill="#e0f2fe" stroke="#0284c7" stroke-width="1.8" d="M473.8,-333.41C473.8,-333.41 303.25,-333.41 303.25,-333.41 297.25,-333.41 291.25,-327.41 291.25,-321.41 291.25,-321.41 291.25,-278.69 291.25,-278.69 291.25,-272.69 297.25,-266.69 303.25,-266.69 303.25,-266.69 473.8,-266.69 473.8,-266.69 479.8,-266.69 485.8,-272.69 485.8,-278.69 485.8,-278.69 485.8,-321.41 485.8,-321.41 485.8,-327.41 479.8,-333.41 473.8,-333.41"></path>
+<text xml:space="preserve" text-anchor="middle" x="388.52" y="-305.05" font-family="Arial" font-size="20.00" fill="#0f172a">결과를 독립 기준으로</text>
+<text xml:space="preserve" text-anchor="middle" x="388.52" y="-281.05" font-family="Arial" font-size="20.00" fill="#0f172a">검증할 수 있는가</text>
+</g>
+<g id="edge3" class="edge">
+<title>q1-&gt;q2</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M450.29,-399.02C441.2,-384.6 428.77,-364.89 417.45,-346.93"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="420.81,-345.04 411.69,-337.79 414.3,-349.15 420.81,-345.04"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="455.2" y="-361.46" font-family="Arial" font-size="16.00" fill="#334155">그리고</text>
+</g>
+<g id="node6" class="node">
+<title>no</title>
+<path fill="#fee2e2" stroke="#dc2626" stroke-width="1.8" d="M712.42,-200.44C712.42,-200.44 362.62,-200.44 362.62,-200.44 356.62,-200.44 350.62,-194.44 350.62,-188.44 350.62,-188.44 350.62,-144.97 350.62,-144.97 350.62,-138.97 356.62,-132.97 362.62,-132.97 362.62,-132.97 712.42,-132.97 712.42,-132.97 718.42,-132.97 724.42,-138.97 724.42,-144.97 724.42,-144.97 724.42,-188.44 724.42,-188.44 724.42,-194.44 718.42,-200.44 712.42,-200.44"></path>
+<text xml:space="preserve" text-anchor="start" x="365.02" y="-172.08" font-family="Arial" font-size="20.00" fill="#0f172a">하나라도 아니오 → 단일 연속 컨텍스트 기본</text>
+<text xml:space="preserve" text-anchor="start" x="475.27" y="-147.33" font-family="Arial" font-size="20.00" fill="#0f172a">단일 기본 권고</text>
+</g>
+<g id="edge5" class="edge">
+<title>q1-&gt;no</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M472.39,-398.88C475.33,-391.83 478.59,-383.91 481.52,-376.66 489.26,-357.51 492.37,-353.12 498.52,-333.41 510.7,-294.45 521.09,-249.29 528.08,-215.96"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="531.78,-217.09 530.22,-205.54 524.23,-215.54 531.78,-217.09"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="536.55" y="-294.98" font-family="Arial" font-size="16.00" fill="#334155">아니오</text>
+</g>
+<g id="node5" class="node">
+<title>yes</title>
+<path fill="#dcfce7" stroke="#16a34a" stroke-width="1.8" d="M313.05,-200.44C313.05,-200.44 12,-200.44 12,-200.44 6,-200.44 0,-194.44 0,-188.44 0,-188.44 0,-144.97 0,-144.97 0,-138.97 6,-132.97 12,-132.97 12,-132.97 313.05,-132.97 313.05,-132.97 319.05,-132.97 325.05,-138.97 325.05,-144.97 325.05,-144.97 325.05,-188.44 325.05,-188.44 325.05,-194.44 319.05,-200.44 313.05,-200.44"></path>
+<text xml:space="preserve" text-anchor="start" x="59.02" y="-172.08" font-family="Arial" font-size="20.00" fill="#0f172a">둘 다 예 → 병렬 탐색 후보</text>
+<text xml:space="preserve" text-anchor="start" x="14.4" y="-147.33" font-family="Arial" font-size="20.00" fill="#0f172a">독립 조사 과업형</text>
+</g>
+<g id="edge4" class="edge">
+<title>q2-&gt;yes</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M331.5,-265.91C301.75,-248.62 265.07,-227.3 233.5,-208.96"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="235.69,-205.78 224.25,-203.58 231.82,-212.43 235.69,-205.78"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="313.81" y="-228.49" font-family="Arial" font-size="16.00" fill="#334155">둘 다 예</text>
+</g>
+<g id="edge6" class="edge">
+<title>q2-&gt;no</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M426.12,-265.91C444.86,-249.39 467.77,-229.2 487.92,-211.43"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="490.31,-214.46 496.01,-204.3 485.22,-208.68 490.31,-214.46"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="492.2" y="-228.49" font-family="Arial" font-size="16.00" fill="#334155">아니오</text>
+</g>
+<g id="node7" class="node">
+<title>retry</title>
+<path fill="#fef3c7" stroke="#d97706" stroke-width="1.8" d="M447.55,-66.72C447.55,-66.72 251.5,-66.72 251.5,-66.72 245.5,-66.72 239.5,-60.72 239.5,-54.72 239.5,-54.72 239.5,-12 239.5,-12 239.5,-6 245.5,0 251.5,0 251.5,0 447.55,0 447.55,0 453.55,0 459.55,-6 459.55,-12 459.55,-12 459.55,-54.72 459.55,-54.72 459.55,-60.72 453.55,-66.72 447.55,-66.72"></path>
+<text xml:space="preserve" text-anchor="start" x="253.9" y="-38.36" font-family="Arial" font-size="20.00" fill="#0f172a">조건이 바뀌면 → 재판정</text>
+<text xml:space="preserve" text-anchor="start" x="277.9" y="-14.36" font-family="Arial" font-size="20.00" fill="#0f172a">과업 · 평가셋 고정</text>
+</g>
+<g id="edge7" class="edge">
+<title>yes-&gt;retry</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M210.2,-132.22C234.36,-115.25 263.94,-94.47 289.63,-76.43"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="291.76,-79.64 298.55,-70.16 287.33,-73.34 291.76,-79.64"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="296.47" y="-94.77" font-family="Arial" font-size="16.00" fill="#334155">조건 변경</text>
+</g>
+<g id="edge8" class="edge">
+<title>no-&gt;retry</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M489.6,-132.22C465.31,-115.25 435.57,-94.47 409.74,-76.43"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="411.98,-73.3 400.76,-70.16 407.57,-79.61 411.98,-73.3"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="484.03" y="-94.77" font-family="Arial" font-size="16.00" fill="#334155">조건 변경</text>
+</g>
+</g>
+</svg>

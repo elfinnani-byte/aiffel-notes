@@ -1,0 +1,49 @@
+<svg aria-label="하나의 컨텍스트를 독립적인 두 증거 묶음으로 나누고 리드가 대조와 합성을 수행하는 흐름도" viewBox="0.00 0.00 537.00 327.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(32.4 294.77)">
+<title>context_split</title>
+<polygon fill="#f8fafc" stroke="none" points="-32.4,32.4 -32.4,-294.77 504.4,-294.77 504.4,32.4 -32.4,32.4"></polygon>
+<text xml:space="preserve" text-anchor="middle" x="236" y="-235.57" font-size="24.00" fill="#0f172a">분리는 결과 수가 아니라 증거의 독립성을 만든다</text>
+<g id="node1" class="node">
+<title>context</title>
+<path fill="#e0f2fe" stroke="#0284c7" stroke-width="1.8" d="M325.69,-225.12C325.69,-225.12 165.19,-225.12 165.19,-225.12 159.19,-225.12 153.19,-219.12 153.19,-213.12 153.19,-213.12 153.19,-190.08 153.19,-190.08 153.19,-184.08 159.19,-178.08 165.19,-178.08 165.19,-178.08 325.69,-178.08 325.69,-178.08 331.69,-178.08 337.69,-184.08 337.69,-190.08 337.69,-190.08 337.69,-213.12 337.69,-213.12 337.69,-219.12 331.69,-225.12 325.69,-225.12"></path>
+<text xml:space="preserve" text-anchor="middle" x="245.44" y="-194.6" font-size="20.00" fill="#0f172a">하나의 긴 컨텍스트</text>
+</g>
+<g id="node2" class="node">
+<title>evidence_a</title>
+<path fill="#dcfce7" stroke="#16a34a" stroke-width="1.8" d="M230.56,-148.08C230.56,-148.08 42.31,-148.08 42.31,-148.08 36.31,-148.08 30.31,-142.08 30.31,-136.08 30.31,-136.08 30.31,-89.04 30.31,-89.04 30.31,-83.04 36.31,-77.04 42.31,-77.04 42.31,-77.04 230.56,-77.04 230.56,-77.04 236.56,-77.04 242.56,-83.04 242.56,-89.04 242.56,-89.04 242.56,-136.08 242.56,-136.08 242.56,-142.08 236.56,-148.08 230.56,-148.08"></path>
+<text xml:space="preserve" text-anchor="middle" x="136.44" y="-117.56" font-size="20.00" fill="#0f172a">증거 묶음 A</text>
+<text xml:space="preserve" text-anchor="middle" x="136.44" y="-93.56" font-size="20.00" fill="#0f172a">주장 · 직접 근거</text>
+</g>
+<g id="edge1" class="edge">
+<title>context-&gt;evidence_a</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M216.23,-177.27C208.86,-171.39 200.69,-164.87 192.48,-158.31"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="195.05,-155.43 184.05,-151.58 190.24,-161.45 195.05,-155.43"></polygon>
+</g>
+<g id="node3" class="node">
+<title>evidence_b</title>
+<path fill="#fef3c7" stroke="#d97706" stroke-width="1.8" d="M429.69,-148.08C429.69,-148.08 281.19,-148.08 281.19,-148.08 275.19,-148.08 269.19,-142.08 269.19,-136.08 269.19,-136.08 269.19,-89.04 269.19,-89.04 269.19,-83.04 275.19,-77.04 281.19,-77.04 281.19,-77.04 429.69,-77.04 429.69,-77.04 435.69,-77.04 441.69,-83.04 441.69,-89.04 441.69,-89.04 441.69,-136.08 441.69,-136.08 441.69,-142.08 435.69,-148.08 429.69,-148.08"></path>
+<text xml:space="preserve" text-anchor="middle" x="355.44" y="-117.56" font-size="20.00" fill="#0f172a">증거 묶음 B</text>
+<text xml:space="preserve" text-anchor="middle" x="355.44" y="-93.56" font-size="20.00" fill="#0f172a">제약 · 반례</text>
+</g>
+<g id="edge2" class="edge">
+<title>context-&gt;evidence_b</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M274.92,-177.27C282.36,-171.39 290.6,-164.87 298.88,-158.31"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="301.17,-161.41 307.41,-151.56 296.4,-155.37 301.17,-161.41"></polygon>
+</g>
+<g id="node4" class="node">
+<title>synthesis</title>
+<path fill="#dbeafe" stroke="#2563eb" stroke-width="1.8" d="M322.69,-47.04C322.69,-47.04 168.19,-47.04 168.19,-47.04 162.19,-47.04 156.19,-41.04 156.19,-35.04 156.19,-35.04 156.19,-12 156.19,-12 156.19,-6 162.19,0 168.19,0 168.19,0 322.69,0 322.69,0 328.69,0 334.69,-6 334.69,-12 334.69,-12 334.69,-35.04 334.69,-35.04 334.69,-41.04 328.69,-47.04 322.69,-47.04"></path>
+<text xml:space="preserve" text-anchor="middle" x="245.44" y="-16.52" font-size="20.00" fill="#0f172a">리드 · 대조와 합성</text>
+</g>
+<g id="edge3" class="edge">
+<title>evidence_a-&gt;synthesis</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M180.77,-76.16C188.49,-69.99 196.49,-63.6 204.13,-57.51"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="206.38,-60.64 212.57,-50.76 201.57,-54.62 206.38,-60.64"></polygon>
+</g>
+<g id="edge4" class="edge">
+<title>evidence_b-&gt;synthesis</title>
+<path fill="none" stroke="#334155" stroke-width="3" d="M310.7,-76.16C302.91,-69.99 294.83,-63.6 287.12,-57.51"></path>
+<polygon fill="#334155" stroke="#334155" stroke-width="3" points="289.6,-54.56 278.58,-50.75 284.82,-60.59 289.6,-54.56"></polygon>
+</g>
+</g>
+</svg>
