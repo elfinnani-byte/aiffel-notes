@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Claude Code 또는 OpenCode 호스트 안의 두 클라이언트가 업무 기록 서버와 문서 서버에 각각 연결되는 구조" viewBox="0 0 760 360" style="max-width: 100%; height: auto; font-family: Arial, &quot;Malgun Gothic&quot;, sans-serif;">
+<defs>
+<marker id="weekly-mcp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"></path>
+</marker>
+</defs>
+<rect x="12" y="12" width="736" height="336" rx="18" fill="#f8fafc"></rect>
+<rect x="32" y="32" width="370" height="294" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="2"></rect>
+<rect x="65" y="124" width="300" height="64" rx="12" fill="#faf5ff" stroke="#9333ea"></rect>
+<rect x="65" y="235" width="300" height="58" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-dasharray="5 4"></rect>
+<rect x="495" y="118" width="230" height="78" rx="12" fill="#fef3c7" stroke="#d97706"></rect>
+<rect x="495" y="235" width="230" height="58" rx="12" fill="#fef3c7" stroke="#d97706" stroke-dasharray="5 4"></rect>
+<text x="217" y="65" text-anchor="middle" font-size="20" fill="#172554">호스트: Claude Code 또는 OpenCode</text>
+<text x="217" y="94" text-anchor="middle" font-size="16" fill="#334155">대화 · 모델 사용 · 연결과 실행 관리</text>
+<text x="215" y="151" text-anchor="middle" font-size="18" fill="#581c87">업무 기록 서버용 클라이언트</text>
+<text x="215" y="175" text-anchor="middle" font-size="15" fill="#581c87">호스트 내부의 연결 담당</text>
+<text x="215" y="270" text-anchor="middle" font-size="18" fill="#581c87">문서 서버용 클라이언트</text>
+<path d="M 368 156 L 489 156" stroke="#475569" fill="none" marker-start="url(#weekly-mcp-arrow)" marker-end="url(#weekly-mcp-arrow)"></path>
+<text x="449" y="136" text-anchor="middle" font-size="14" fill="#334155">MCP 메시지</text>
+<path d="M 368 264 L 489 264" stroke="#475569" stroke-dasharray="5 4" fill="none" marker-start="url(#weekly-mcp-arrow)" marker-end="url(#weekly-mcp-arrow)"></path>
+<text x="610" y="145" text-anchor="middle" font-size="19" fill="#78350f">weekly-records 서버</text>
+<text x="610" y="172" text-anchor="middle" font-size="16" fill="#78350f">주차에 맞는 기록 파일 읽기</text>
+<text x="610" y="270" text-anchor="middle" font-size="18" fill="#78350f">문서 서버 (확장 예)</text>
+</svg>

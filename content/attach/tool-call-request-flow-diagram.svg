@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tool-flow-title tool-flow-desc" viewBox="0 0 940 850" style="display: block; width: 100%; min-width: 760px; max-width: 940px; height: auto; font-family: Arial, &quot;Apple SD Gothic Neo&quot;, &quot;Malgun Gothic&quot;, sans-serif;">
+<title id="tool-flow-title">도구 호출 요청이 실제 기록과 답변으로 이어지는 흐름</title>
+<desc id="tool-flow-desc">시간은 위에서 아래로 흐릅니다. 사용자가 AI 앱에 요청하면 앱은 모델에게 요청과 도구 설명을 전달합니다. 모델이 도구와 입력을 선택해 호출을 요청하면 앱이 조회 프로그램에 실행을 요청하고, 조회 프로그램이 기록을 반환합니다. 앱은 결과를 모델에게 전달하고, 모델은 기록에 근거한 답변을 생성해 사용자에게 표시합니다.</desc>
+<defs>
+<marker id="tool-flow-request" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"></path>
+</marker>
+<marker id="tool-flow-data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"></path>
+</marker>
+</defs>
+<rect x="1" y="1" width="938" height="848" rx="20" fill="#ffffff" stroke="#cbd5e1"></rect>
+<text x="30" y="40" font-size="22" font-weight="700" fill="#0f172a">요청에서 답변까지</text>
+<text x="908" y="40" text-anchor="end" font-size="16" fill="#64748b">위에서 아래로 읽기 ↓</text>
+<rect x="22" y="153" width="896" height="220" rx="12" fill="#f8fafc"></rect>
+<rect x="22" y="389" width="896" height="162" rx="12" fill="#f0fdfa"></rect>
+<rect x="22" y="568" width="896" height="206" rx="12" fill="#f8fafc"></rect>
+<rect x="18" y="65" width="164" height="70" rx="12" fill="#f1f5f9" stroke="#64748b"></rect>
+<rect x="258" y="65" width="164" height="70" rx="12" fill="#eff6ff" stroke="#2563eb"></rect>
+<rect x="498" y="65" width="164" height="70" rx="12" fill="#f5f3ff" stroke="#7c3aed"></rect>
+<rect x="738" y="65" width="164" height="70" rx="12" fill="#f0fdfa" stroke="#0f766e"></rect>
+<text x="100" y="94" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">사용자</text>
+<text x="100" y="119" text-anchor="middle" font-size="14" fill="#475569">첫째 주 현황이 필요</text>
+<text x="340" y="94" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">AI 앱</text>
+<text x="340" y="119" text-anchor="middle" font-size="14" fill="#475569">요청 · 실행 · 결과 연결</text>
+<text x="580" y="94" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">모델</text>
+<text x="580" y="119" text-anchor="middle" font-size="14" fill="#475569">도구 선택 · 답변 생성</text>
+<text x="820" y="94" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">조회 프로그램</text>
+<text x="820" y="119" text-anchor="middle" font-size="14" fill="#475569">실제 업무 기록 읽기</text>
+<path d="M 100 138 V 774" stroke="#cbd5e1" stroke-width="1.5"></path>
+<path d="M 340 138 V 774" stroke="#cbd5e1" stroke-width="1.5"></path>
+<path d="M 580 138 V 774" stroke="#cbd5e1" stroke-width="1.5"></path>
+<path d="M 820 138 V 774" stroke="#cbd5e1" stroke-width="1.5"></path>
+<path d="M 100 214 H 340" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-request)"></path>
+<text x="220" y="199" text-anchor="middle" font-size="19" font-weight="600" fill="#334155">1. 첫째 주 상황 요청</text>
+<path d="M 340 286 H 580" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-request)"></path>
+<text x="460" y="271" text-anchor="middle" font-size="19" font-weight="600" fill="#334155">2. 요청 + 도구 설명</text>
+<path d="M 580 358 H 340" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-request)"></path>
+<text x="460" y="315" text-anchor="middle" font-size="19" font-weight="600" fill="#334155">3. 도구 호출 요청</text>
+<text x="460" y="340" text-anchor="middle" font-size="16" fill="#475569">도구와 입력을 선택</text>
+<path d="M 340 458 H 820" stroke="#0f766e" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-data)"></path>
+<text x="580" y="415" text-anchor="middle" font-size="19" font-weight="600" fill="#0f172a">4. 조회 실행 요청</text>
+<text x="580" y="440" text-anchor="middle" font-size="16" fill="#475569">get_weekly_records · week = "week-one"</text>
+<path d="M 820 536 H 340" stroke="#0f766e" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-data)"></path>
+<text x="580" y="521" text-anchor="middle" font-size="19" font-weight="600" fill="#0f172a">5. 첫째 주 기록 반환</text>
+<path d="M 340 626 H 580" stroke="#0f766e" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-data)"></path>
+<text x="460" y="611" text-anchor="middle" font-size="19" font-weight="600" fill="#0f172a">6. 도구 결과 전달</text>
+<path d="M 580 696 H 340" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-request)"></path>
+<text x="460" y="681" text-anchor="middle" font-size="19" font-weight="600" fill="#334155">7. 기록에 근거한 답변</text>
+<path d="M 340 766 H 100" stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#tool-flow-request)"></path>
+<text x="220" y="751" text-anchor="middle" font-size="19" font-weight="600" fill="#334155">8. 답변 표시</text>
+<text x="470" y="819" text-anchor="middle" font-size="15" fill="#64748b">모델은 호출을 요청하고, 조회 프로그램이 실제 기록을 읽습니다.</text>
+</svg>
