@@ -348,4 +348,26 @@ article {
   }
 }
 
+// Tables default to shrink-to-fit width, so they render narrower than the
+// 700px reading column and don't get the full row width to work with —
+// which lets a browser's auto column-sizing squeeze even a short one-word
+// cell into wrapping when a sibling column holds a long sentence. Stretch
+// the table to fill its container instead (minus its own 1rem margin, so
+// it doesn't overflow .table-container's overflow-x:auto and add a
+// scrollbar that wasn't otherwise needed).
+.table-container > table {
+  width: calc(100% - 2rem);
+}
+
+// 100% width alone doesn't stop wrapping inside auto table-layout — the
+// browser still splits a multi-word phrase (e.g. "Claude Agent SDK") across
+// lines if that column's share of the row is narrower than the phrase,
+// since auto layout only guarantees no split *within* a single word. Every
+// table in this vault puts its short label/term in the first column and its
+// long descriptive sentences after it, so keep only that first column from
+// wrapping — the description columns still wrap normally.
+.table-container > table :is(th, td):first-child {
+  white-space: nowrap;
+}
+
 

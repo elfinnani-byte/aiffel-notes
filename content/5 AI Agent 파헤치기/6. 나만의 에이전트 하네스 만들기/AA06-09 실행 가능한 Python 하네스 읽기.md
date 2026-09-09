@@ -110,7 +110,7 @@ async with asyncio.timeout(self.limits.tool_timeout_seconds):
 
 > 영수증 계산의 테스트를 실행하고 잘못된 부분을 고쳐 줘. 테스트는 바꾸지 말고 다시 확인해 줘.
 
-> [info]+ **코딩 작업 실행과 검사**
+> [!info]+ **코딩 작업 실행과 검사**
 >
 >```bash
 >uv run run.py --provider openai --model gpt-4.1-mini --workspace work --session receipt-fix --prompt "영수증 계산의 테스트를 실행하고 잘못된 부분을 고쳐 줘. 테스트는 바꾸지 말고 다시 확인해 줘."
@@ -172,7 +172,7 @@ result = await Agent(
 
 > 하네스 자체 검사를 돌리고, 실제 모델 평가와 구별해서 결과를 설명해 줘.
 
-> [info]+ **모의 응답과 로컬 도구 검사**
+> [!info]+ **모의 응답과 로컬 도구 검사**
 > 프로젝트 루트에서 실행합니다.
 >```bash
 >uv sync --locked --extra dev
