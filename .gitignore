@@ -12,3 +12,6 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+# Contains a live-looking Anthropic OAuth credential — never deploy
+content/5 AI Agent 파헤치기/2. \[프로젝트\] 에이전트 하네스 톺아보기/handoff-experiment/_empty-claude-config/
